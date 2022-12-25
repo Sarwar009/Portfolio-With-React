@@ -1,0 +1,96 @@
+.header {
+  height: 750px;
+  padding-top: 5rem;
+  overflow: hidden;
+}
+
+.header .header-container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.header .header-container .cta {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .header-container .header-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.header .header-container .header-socials::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
+}
+
+.header .header-container .me {
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-primary)), to(transparent));
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 35rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  margin-top: 3rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 4rem 1.5rem 1.5rem 1.5rem;
+}
+
+.header .header-container .scroll-down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    height: 650px;
+    padding-top: 2rem;
+  }
+  .header .header-container .me {
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--color-primary)), to(transparent));
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 18rem;
+    height: 24rem;
+    position: absolute;
+    left: calc(50% - 9rem);
+    margin-top: 2.5rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header .header-container .header-socials,
+  .header .header-container .scroll-down {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */
