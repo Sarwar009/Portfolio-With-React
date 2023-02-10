@@ -3,50 +3,38 @@
   padding-top: 5rem;
   overflow: hidden;
 }
-
 .header .header-container {
   text-align: center;
   height: 100%;
   position: relative;
 }
-
+.header .header-container #myName span:hover {
+  color: #4CD9FF;
+  font-size: larger;
+  transition: 0.2s all ease;
+}
 .header .header-container .cta {
   margin-top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 1.2rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .header .header-container .header-socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   gap: 0.8rem;
   position: absolute;
   left: 0;
   bottom: 3rem;
 }
-
 .header .header-container .header-socials::after {
   content: "";
   width: 1px;
   height: 2rem;
   background: var(--color-primary);
 }
-
 .header .header-container .me {
-  background: -webkit-gradient(linear, left top, left bottom, from(var(--color-primary)), to(transparent));
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 35rem;
@@ -57,13 +45,14 @@
   overflow: hidden;
   padding: 4rem 1.5rem 1.5rem 1.5rem;
 }
-
+.header .header-container .me #meImg {
+  margin-bottom: -10px;
+}
 .header .header-container .scroll-down {
   position: absolute;
   right: -2.3rem;
   bottom: 5rem;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
 }
@@ -74,7 +63,6 @@
     padding-top: 2rem;
   }
   .header .header-container .me {
-    background: -webkit-gradient(linear, left top, left bottom, from(var(--color-primary)), to(transparent));
     background: linear-gradient(var(--color-primary), transparent);
     width: 18rem;
     height: 24rem;
@@ -86,11 +74,9 @@
     padding: 5rem 1.5rem 1.5rem 1.5rem;
   }
 }
-
 @media screen and (max-width: 600px) {
   .header .header-container .header-socials,
   .header .header-container .scroll-down {
     display: none;
   }
-}
-/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */

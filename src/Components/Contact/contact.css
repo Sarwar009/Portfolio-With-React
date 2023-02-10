@@ -1,60 +1,40 @@
 .contact-container {
   width: 58%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 58%;
-      grid-template-columns: 30% 58%;
+  grid-template-columns: 30% 58%;
   gap: 12%;
 }
-
 .contact-container .contact-options {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1.2rem;
 }
-
 .contact-container .contact-options .contact-card {
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .contact-container .contact-options .contact-card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
 }
-
 .contact-container .contact-options .contact-card .contact-card-icon {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
-
 .contact-container .contact-options .contact-card a {
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
 }
-
 .contact-container form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1.2rem;
 }
-
 .contact-container form input, .contact-container form textarea {
   color: #fff;
   width: 100%;
@@ -67,15 +47,12 @@
 
 @media screen and (max-width: 1024px) {
   .contact-container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 2rem;
   }
 }
-
 @media screen and (max-width: 600px) {
   .contact-container {
     width: var(--container-width-sm);
   }
-}
-/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=contact.css.map */

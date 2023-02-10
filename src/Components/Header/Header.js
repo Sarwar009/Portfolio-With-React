@@ -10,15 +10,31 @@ const Header = () => {
     <div className="header" id="home">
       <div className="container header-container">
         <h5>Hello I'm</h5>
-        <h1>Md Sarwar Ahmed</h1>
-        <h5 className="text-light">Full Stack Developer</h5>
-        <h5 className="text-light">DEMO PORTFOLIO</h5>
+        <h1 id="myName">
+          <span>M</span>
+          <span>D</span>
+          <span> </span>
+          <span>S</span>
+          <span>A</span>
+          <span>R</span>
+          <span>W</span>
+          <span>A</span>
+          <span>R</span>
+          <span> </span>
+          <span>A</span>
+          <span>H</span>
+          <span>M</span>
+          <span>E</span>
+          <span>D</span>
+
+        </h1>
+        <h5 className="text-light">Front-End Developer</h5>
         <CTA />
         
         <HeaderSocials />
 
         <div className="me">
-          <img src={ME} alt='me' />
+          <img id="meImg" src={ME} alt='me' />
         </div>
 
         <a href="#contact" className="scroll-down">Scroll Down</a>

@@ -1,37 +1,27 @@
 .portfolio-container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
-
 .portfolio-container .portfolio-item {
   background-color: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
 }
-
 .portfolio-container .portfolio-item:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
 }
-
 .portfolio-container .portfolio-item .item-img {
   border-radius: 1.5rem;
   overflow: hidden;
 }
-
 .portfolio-container .portfolio-item h3 {
   margin: 1.2rem 0 2rem;
 }
-
 .portfolio-container .portfolio-item .item-cta {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 1rem;
   gap: 1rem;
@@ -39,17 +29,13 @@
 
 @media screen and (max-width: 1024px) {
   .portfolio-container {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
 }
-
 @media screen and (max-width: 600px) {
   .portfolio-container {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
-}
-/*# sourceMappingURL=portfolio.css.map */
+}/*# sourceMappingURL=portfolio.css.map */
