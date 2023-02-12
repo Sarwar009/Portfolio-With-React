@@ -11,8 +11,11 @@ const Header = () => {
       <div className="container header-container">
         <h5>Hello I'm</h5>
         <h1 id="myName">
+          <span>G</span>
+          <span>O</span>
+          <span>L</span>
+          <span>A</span>
           <span>M</span>
-          <span>D</span>
           <span> </span>
           <span>S</span>
           <span>A</span>
@@ -20,12 +23,6 @@ const Header = () => {
           <span>W</span>
           <span>A</span>
           <span>R</span>
-          <span> </span>
-          <span>A</span>
-          <span>H</span>
-          <span>M</span>
-          <span>E</span>
-          <span>D</span>
 
         </h1>
         <h5 className="text-light">Front-End Developer</h5>

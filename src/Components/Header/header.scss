@@ -4,17 +4,18 @@
     overflow: hidden;
 
     
+
     .header-container {
         text-align: center;
         height: 100%;
         position: relative;
 
         #myName{
+            height: 4rem;
+
             span{
                 &:hover{
                     color: #4CD9FF;
-
-                    font-size: larger;
                     transition: 0.2s all ease;
                 }
             }
@@ -79,6 +80,12 @@
         padding-top: 2rem;
 
         .header-container {
+
+            #myName{
+                height: 2rem;
+                font-size: 1.5rem;
+            }
+
             .me {
                 background: linear-gradient(var(--color-primary), transparent);
                 width: 18rem;

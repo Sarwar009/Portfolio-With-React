@@ -32,7 +32,16 @@ const About = () => {
             }
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
+          I am a highly motivated and results-driven person
+          seeking a challenging and growth-oriented position in
+          the field of Web development. With a strong
+          background in frontend development specially in
+          ReactJs. I am eager to improve my skills and experience
+          to contribute to the success of a dynamic organization.
+          My ultimate goal is to apply my creativity and strategic
+          thinking to develop modern websites and help our
+          clients to grow their business.
+          
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

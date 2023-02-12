@@ -7,19 +7,19 @@ const CardDetails = [
         id: 1,
         title:"Experience",
         img: <FaAward />,
-        details: '3+ Years Working'
+        details: '1+ Years Working'
     },
     {
         id: 2,
         title:"Clients",
         img: <FaUserSecret />,
-        details: '100+ Worldwide'
+        details: 'Not yet'
     },
     {
         id: 3,
         title:"Projects",
         img: <RiFolderOpenFill />,
-        details: '50+ Completed'
+        details: '5 Completed'
     },
 ]
 

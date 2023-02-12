@@ -8,9 +8,11 @@
   height: 100%;
   position: relative;
 }
+.header .header-container #myName {
+  height: 4rem;
+}
 .header .header-container #myName span:hover {
   color: #4CD9FF;
-  font-size: larger;
   transition: 0.2s all ease;
 }
 .header .header-container .cta {
@@ -61,6 +63,10 @@
   .header {
     height: 650px;
     padding-top: 2rem;
+  }
+  .header .header-container #myName {
+    height: 2rem;
+    font-size: 1.5rem;
   }
   .header .header-container .me {
     background: linear-gradient(var(--color-primary), transparent);
